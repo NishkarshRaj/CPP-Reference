@@ -10,3 +10,6 @@
 # C is a structured language
 * It is not a **block structured** language because it does not support defining functions within functions.
 * It **compartmentalizes** the code into blocks ({}) using local variables etc. which restricts visibility of the code: We know what the subroutine does and not how does it works which is a feature of OOPS based languages like C++.
+* Control transferred using looping and functions and use of goto statement is discouraged
+* Does not follow **Static field concept** which allows statements to be present anywhere on yhe line rather than following indentation.
+* C's main structural component and only subroutine are functions though compartmentalization can also be done using **code blocks** {} 
