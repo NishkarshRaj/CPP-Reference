@@ -21,5 +21,9 @@ int main()
 	{
 		cout<<arr[i]<<" ";
 	}
+	cout<<endl;
+	//Delete entire array
+	arr.clear();
+	cout<<"After clearing, Size of vector: "<<arr.size()<<endl;
 }
 
