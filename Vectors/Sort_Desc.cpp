@@ -1,0 +1,23 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+	int i,n,el;
+	vector<int> arr;
+	cout<<"Enter the number of elements: ";
+	cin>>n;
+	cout<<"Enter "<<n<<" elements: ";
+	for(i=0;i<n;i++)
+	{
+		cin>>el;
+		arr.push_back(el);
+	}
+	//Sort
+	sort(arr.rbegin(),arr.rend());
+	//
+	cout<<"Output:"<<endl;
+	for(i=0;i<n;i++)
+	{
+		cout<<arr[i]<<" ";
+	}
+}
