@@ -21,4 +21,12 @@ int main()
 	{
 		cout<<arr[i]<<" ";
 	}
+	cout<<endl;
+	//emplace_back(value); only one option -> insertion at end similar to push back
+	arr.emplace_back(31);
+	cout<<"Lets see current Vector after back"<<endl;
+	for(i=0;i<arr.size();i++)
+	{
+		cout<<arr[i]<<" ";
+	}
 }
