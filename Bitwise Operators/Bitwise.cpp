@@ -15,4 +15,10 @@ int main()
 	cout<<"Bitwise Not of "<<b<<" is: "<<(~b)<<endl; //1010 -> 10
 	//4. Bitwise XOR -> Exclusive OR (Probability Reference -> Two 1s implies 0) -> Odd 1 ==>1
 	cout<<"Bitwise XOR: "<<(a^b)<<endl; //0111 7
+	//5. Bitwise Left Shift!!! Points to left *2^k
+	cout<<"Left Shift by 2: "<<(a<<2)<<endl;
+	cout<<"Left Shift by 3: "<<(a<<3)<<endl;
+	//6. Bitwise Right Shift
+	cout<<"Right Shift by 2: "<<(a>>2)<<endl;
+	cout<<"Right Shift by 3: "<<(a>>3)<<endl;
 }
